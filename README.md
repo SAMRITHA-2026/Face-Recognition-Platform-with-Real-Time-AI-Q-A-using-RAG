@@ -47,6 +47,11 @@ A browser-based platform that enables users to:
 - Works via **FAISS + LangChain + LLM** (Gemini / OpenAI ChatGPT)
 - Real-time RAG responses powered by vector similarity search + LLM generation
 
+![image](https://github.com/user-attachments/assets/a3964596-c667-4f97-bb44-13f77ce33263)
+
+![image](https://github.com/user-attachments/assets/02f35430-afdc-470d-a517-e807b8a06baf)
+
+
 ---
 
 ## Architecture 🏛️
