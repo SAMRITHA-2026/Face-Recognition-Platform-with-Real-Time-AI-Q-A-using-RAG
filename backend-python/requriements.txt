@@ -1,0 +1,18 @@
+pip install C:\Users\DELL\Downloads\KAT\dlib-19.24.99-cp312-cp312-win_amd64.whl
+pip install face_recognition
+pip install streamlit
+py -m streamlit run Face_Recognition_Rag.py
+pip install streamlit-webrtc
+streamlit==1.31.1
+face_recognition==1.3.0
+numpy==1.26.4
+opencv-python==4.9.0.80
+Pillow==10.3.0
+python-dotenv==1.0.1
+langchain==0.1.16
+langchain-community==0.0.34
+langchain-google-genai==0.0.11
+faiss-cpu==1.7.4
+google-generativeai==0.3.1
+google-api-core==2.17.1
+google-cloud-aiplatform==1.47.0
