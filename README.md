@@ -10,8 +10,8 @@ A browser-based platform that enables users to:
 
 ## Demo Screenshot 📸
 
-![Face Recognition Demo](![Screenshot 2025-06-07 235645](https://github.com/user-attachments/assets/a9b8a56d-3198-47f0-a484-13ff87b5d984)
-)
+![Screenshot 2025-06-07 235645](https://github.com/user-attachments/assets/a9b8a56d-3198-47f0-a484-13ff87b5d984)
+
 
 *(Example: Elon Musk detected in live webcam feed, faces annotated.)*
 
