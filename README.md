@@ -57,10 +57,20 @@ A browser-based platform that enables users to:
 ## Architecture 🏛️
 
 ```plaintext
-Frontend (Streamlit)
-   |
-WebRTC Video Stream ↔ FaceRecognitionProcessor (Python + OpenCV + face_recognition)
-   |
-Face Registration ↔ Face DB (Pickle or any DB)
-   |
-Chat Interface ↔ RAG Engine (LangChain + FAISS + LLM)
+/face-recognition-rag/
+├── backend-python/          # Python (Flask or FastAPI) server
+│   ├── app.py                # Face Registration, Recognition, RAG API
+│   ├── face_db.pkl           # Face database (Pickle format or replace with DB)
+│   ├── faiss_index/          # Vector index for RAG
+│   ├── requirements.txt      # Python dependencies
+│
+├── backend-nodejs/           # Node.js WebSocket + API proxy server (optional)
+│   ├── server.js              # Express.js + WebSocket
+│   ├── package.json           # Node.js dependencies
+│
+├── frontend-react/           # React.js frontend app
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│
+└── README.md                 # Project description and usage
