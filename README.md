@@ -59,6 +59,12 @@ A browser-based platform that enables users to:
 
 ---
 
+### Face Recognition + RAG API
+✅ Face Recognition + Retrieval-Augmented Generation (RAG) API is running!
+
+![Screenshot 2025-06-08 002907](https://github.com/user-attachments/assets/58f55629-7cca-4f03-a5f6-657bfa417011)
+
+
 ## Architecture 🏛️
 
 ```plaintext
