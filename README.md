@@ -64,6 +64,8 @@ A browser-based platform that enables users to:
 
 ![Screenshot 2025-06-08 002907](https://github.com/user-attachments/assets/58f55629-7cca-4f03-a5f6-657bfa417011)
 
+![Screenshot 2025-06-08 003257](https://github.com/user-attachments/assets/cd5b9752-cb8a-4176-83ca-78fe9c4e82b8)
+
 
 ## Architecture 🏛️
 
