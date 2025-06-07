@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#0A192F" />
+  <meta name="description" content="Face Recognition + RAG QA Platform" />
+  <title>Face Recognition + RAG QA Platform</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Custom Style -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #0A192F;
+      color: #CCD6F6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #root {
+      width: 100%;
+      max-width: 1200px;
+      padding: 20px;
+      background-color: #112240;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      border-radius: 16px;
+      overflow: hidden;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      color: #64FFDA;
+      margin: 0;
+    }
+
+    header p {
+      color: #8892B0;
+      font-size: 1.1rem;
+    }
+
+    .footer {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #8892B0;
+    }
+
+    .footer a {
+      color: #64FFDA;
+      text-decoration: none;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* Loader animation */
+    .loader {
+      border: 6px solid #f3f3f3;
+      border-top: 6px solid #64FFDA;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+      margin: 0 auto;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+
+    /* Button style */
+    .primary-btn {
+      background-color: #64FFDA;
+      color: #0A192F;
+      border: none;
+      padding: 12px 24px;
+      font-size: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .primary-btn:hover {
+      background-color: #52d2b8;
+    }
+
+    /* Input style */
+    input[type="file"], input[type="text"], textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      border: none;
+      background-color: #1C2B3A;
+      color: #CCD6F6;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="root">
+    <!-- React will render here -->
+    <header>
+      <h1>Face Recognition + RAG QA</h1>
+      <p>Register faces, recognize them in real-time, and ask questions with RAG</p>
+    </header>
+    <div class="footer">
+      Made with ❤️ by Samritha<br/>
+      <a href="https://github.com" target="_blank">View Source</a>
+    </div>
+  </div>
+
+</body>
+</html>
