@@ -34,6 +34,8 @@ A browser-based platform that enables users to:
 - Overlays bounding boxes and names for each detected face
 - Handles **multi-face detection** per frame
 - Optimized for running 1–2 frames/sec to suit typical laptops
+![Screenshot 2025-06-08 000531](https://github.com/user-attachments/assets/335ace56-2157-4b31-b8eb-e3aaafcda0b3)
+
 
 ### 3️⃣ Chat-Based Query Interface (RAG)
 
