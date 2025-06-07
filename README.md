@@ -10,7 +10,8 @@ A browser-based platform that enables users to:
 
 ## Demo Screenshot 📸
 
-![Face Recognition Demo](./screenshot.png)
+![Face Recognition Demo](![Screenshot 2025-06-07 235645](https://github.com/user-attachments/assets/a9b8a56d-3198-47f0-a484-13ff87b5d984)
+)
 
 *(Example: Elon Musk detected in live webcam feed, faces annotated.)*
 
@@ -24,6 +25,7 @@ A browser-based platform that enables users to:
 - Face encoding extracted using `face_recognition` library
 - Name and timestamp stored in `face_db.pkl` (can be extended to use any database)
 - Multiple unique face registrations supported
+![Untitled](https://github.com/user-attachments/assets/6ccb1a21-78c7-49b2-8c5c-94ffbc431e14)
 
 ### 2️⃣ Live Recognition Tab
 
